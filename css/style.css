@@ -1,0 +1,55 @@
+.section {
+    display: flex;
+    padding: auto;
+    padding: 40px;
+    width: 60%;
+    margin-left:500px;
+  }
+  .section .text {
+    margin: 2px;
+    font-size: 15px;
+  }
+  .section img {
+    height: 250px;
+    margin-left: 220;
+    border-radius: 3em;
+  }
+
+  /* Tab CSS */
+.tabs {
+  max-width: 800px;
+  margin: auto;
+}
+
+.tabs input {
+  display: none;
+}
+
+.tabs label {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #8f694c;
+  color: white;
+  /* margin-right: 1px; */
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tabs label:hover {
+  background: #a96f4c;
+}
+
+.content {
+  display: none;
+  padding: 20px;
+  background: #fffefc;
+  border: 1px solid #ddd;
+}
+
+#coffee:checked ~ #content-coffee,
+#cake:checked ~ #content-cake,
+#fruit:checked ~ #content-fruit,
+#juice:checked ~ #content-juice,
+#address:checked ~ #content-address {
+  display: block;
+}
