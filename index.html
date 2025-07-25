@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Coffee House</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Section -->
+    <div class="section">
+        <img src="images/coffee-house.webp" alt="Coffee House">
+        <div class="text">
+            <h1>Baristas</h1>
+            <p>Coffee House</p>
+            <p>No.5 , Lane Street</p>
+            <p>New York</p>
+            <p>025-(256)-8227</p>
+        </div>
+    </div>
+
+    <!-- Tabs (No JS) -->
+    <div class="tabs">
+        <input type="radio" name="tab" id="coffee" checked>
+        <label for="coffee">☕ コーヒー</label>
+
+        <input type="radio" name="tab" id="cake">
+        <label for="cake">🎂 ケーキ</label>
+
+        <input type="radio" name="tab" id="fruit">
+        <label for="fruit">🍓 果物</label>
+
+        <input type="radio" name="tab" id="juice">
+        <label for="juice">🍹 ジュース</label>
+
+        <input type="radio" name="tab" id="address">
+        <label for="address">🏠 住所</label>
+
+        <div class="content" id="content-coffee">
+            <h2>Menu - コーヒー</h2>
+            <ul>
+                <li>espresso <img src="images/espresso.png" width="50"></li>
+                <li>cuppucino <img src="images/cuppucino.png" width="50"></li>
+                <li>cafe mocha <img src="images/mocha.png" width="50"></li>
+            </ul>
+        </div>
+
+        <div class="content" id="content-cake">
+            <h2>Menu - ケーキ</h2>
+            <ul>
+                <li>チョコケーキ <img src="images/chocolate.png" width="50"></li>
+                <li>ストロベリーケーキ <img src="images/strawberry.png" width="50"></li>
+                <li>メロンケーキ <img src="images/melon.png" width="50"></li>
+            </ul>
+        </div>
+
+        <div class="content" id="content-fruit">
+            <h2>Menu - 果物</h2>
+            <ul>
+                <li>イチゴサラダ <img src="images/strawberry_salad.png" width="50"></li>
+                <li>マンゴーサラダ <img src="images/mango.png" width="50"></li>
+                <li>ブドウのアイスクリーム <img src="images/grapes.png" width="50"></li>
+            </ul>
+        </div>
+
+        <div class="content" id="content-juice">
+            <h2>ジュースMenu</h2>
+            <img src="images/juice.png" width="300">
+        </div>
+
+        <div class="content" id="content-address">
+            <h2>住所</h2>
+            <p>New York, Lane Street No.5<br>025-(256)-8227</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d25720.86887240173!2d139.558912!3d36.309673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sjp!4v1681976726007!5m2!1sen!2sjp"
+                width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+</body>
+
+</html>
